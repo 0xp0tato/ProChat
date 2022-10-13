@@ -20,7 +20,7 @@ function Chat() {
   console.log(messages);
 
   useEffect(() => {
-    socket = io.connect("http://localhost:5000");
+    socket = io.connect("https://prochat-demo.herokuapp.com/");
 
     socket.on("connect", () => {
       alert("connected");

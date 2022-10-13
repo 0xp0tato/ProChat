@@ -7,9 +7,13 @@ const io = require("socket.io")(server, {
   },
 });
 
-const port = 5000 || process.env.PORT;
+const port = process.env.PORT;
 
 const users = [{}];
+
+app.get("/", (res, req) => {
+  res.send("Hello server");
+});
 
 io.on("connection", (socket) => {
   console.log("Socket is active");
