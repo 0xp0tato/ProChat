@@ -1,0 +1,53 @@
+.Joinpage{
+    background-color: #0a958f;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.JoinPageBox{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(160, 108, 40);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.AppName{
+    font-family: 'Courier New', monospace;
+    font-size: 4vmax;
+    border-bottom: 2px solid black;
+}
+
+#username{
+    width: 30vmax;
+    padding: 1vmax;
+    border: none;
+    outline: none;
+    font-size: 2vmax;
+    box-sizing: border-box;
+    margin:2vmax;
+}
+
+.joinBtn{
+    width: 30vmax;
+    padding: 1vmax;
+    border: none;
+    outline: none;
+    font-size: 2vmax;
+    background-color: rgb(156, 21, 21);
+    box-sizing: border-box;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.joinBtn:hover{
+    background-color: rgb(131, 18, 18);
+}
